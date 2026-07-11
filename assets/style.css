@@ -119,13 +119,10 @@ ul li a:hover {
 /* Hero Section CSS End */
 
 /* Speaker Section CSS Start */
-.speakers-seection h2 {
-    text-align: center;
-}
 
 .speakers-section {
-    margin-top: 48px;
-    margin-bottom: 48px;
+    margin-top: 3.25rem;
+    margin-bottom: 3.25rem;
 }
 
 .speaker-cards {
@@ -158,9 +155,9 @@ ul li a:hover {
     font-size: 0.75rem;
 }
 
-h2 {
+.speakers-section h2 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 27px;
 }
 
@@ -169,5 +166,118 @@ h2 {
     width: 100%;
 }
 
-
 /* Speaker Section CSS End */
+
+/* Pricing Section CSS Start */
+.pricing-section {
+    margin-top: 5.5rem;
+    margin-bottom: 3.25rem;
+}
+
+.pricing-section h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: #0D1B2A;
+}
+
+.price-deadline {
+    text-align: center;
+    margin-top: 0.65rem;
+    margin-bottom: 2.75rem;
+    color: #575757;
+}
+
+
+.pricing-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.5rem;
+}
+
+.single-cards {
+    border: 1px solid #575757;
+    padding: 30px;
+    border-radius: 14px;
+}
+
+.single-cards h2 {
+    text-align: left;
+    margin-top: 4px;
+    font-size: 2.5rem;
+
+}
+
+hr {
+    margin: 20px 0;
+}
+
+.single-cards p {
+    font-size: 0.75rem;
+    color: #575757;
+}
+
+.price-ul {
+    list-style: disc;
+}
+
+.pro-card {
+    background-color: #0D1B2A;
+}
+
+.team-card {
+    background-color: #F8F9FB;
+}
+
+.single-cards .pro-para {
+    color: #93C5FD;
+}
+
+.pro-card .pro-header {
+    color: #fff;
+}
+
+.single-cards ul {
+    list-style: inside !important;
+}
+
+.single-cards ul li::marker {
+    color: blue;
+}
+
+.single-cards ul li {
+    line-height: 29px;
+}
+
+.team-card {
+    background: #F8F9FB;
+}
+
+.pro-list {
+    color: #CFD1D4
+}
+
+.single-cards button {
+    width: 100%;
+    margin-top: 1.8rem;
+}
+
+.btn-standard {
+    border: 1px solid blue;
+    color: blue;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 1.07rem;
+    padding: 11px 28px;
+    border-radius: 6px;
+}
+
+.btn-contact {
+    border: 1px solid #3d3c3c;
+    background-color: #F8F9FB;
+    cursor: pointer;
+    font-size: 1.07rem;
+    padding: 11px 28px;
+    border-radius: 6px;
+}
+
+/* Pricing Section CSS End */
