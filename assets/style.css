@@ -117,3 +117,57 @@ ul li a:hover {
 }
 
 /* Hero Section CSS End */
+
+/* Speaker Section CSS Start */
+.speakers-seection h2 {
+    text-align: center;
+}
+
+.speakers-section {
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.speaker-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.7rem;
+}
+
+.single-card {
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.description {
+    padding: 20px;
+}
+
+.profession {
+    color: blue;
+    font-size: 0.75rem;
+}
+
+.Speaker {
+    margin: 7px 0px;
+}
+
+.designation {
+    color: #575757;
+    font-size: 0.75rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 27px;
+}
+
+.single-card img {
+    object-fit: cover;
+    width: 100%;
+}
+
+
+/* Speaker Section CSS End */
