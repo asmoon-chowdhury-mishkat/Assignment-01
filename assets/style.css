@@ -490,27 +490,6 @@ hr {
 
 }
 
-
-
-@media(max-width:900px) {
-
-    .hackathon-grid {
-
-        grid-template-columns: 1fr;
-
-    }
-
-
-    .hack-footer {
-
-        flex-direction: column;
-
-        gap: 20px;
-
-    }
-
-}
-
 /* AI Generated Sectiion CSS End */
 
 /* Footer Section CSS End*/
